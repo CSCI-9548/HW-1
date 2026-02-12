@@ -1,0 +1,58 @@
+body {
+    width: 90%;
+    margin: 5%;
+}
+
+header {
+    text-align: center;
+}
+
+.Name {
+    margin: 0;
+    padding: 0;
+}
+
+.Contact {
+    margin: 0;
+    padding: 0;
+}
+
+.Section-Header {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 0;
+    padding: 0; 
+}
+
+h3 {
+        margin: 0;
+    padding: 0; 
+}
+
+.Section-Items {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+.Table-Left-Column {
+    text-align: left;
+}
+
+.Table-Right-Column {
+    text-align: right;
+}
+
+.inline {
+    display: inline-block;
+}

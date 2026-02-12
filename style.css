@@ -56,3 +56,20 @@ table {
 .inline {
     display: inline-block;
 }
+
+/* In the case below, the id selector would win over the general element selector,
+since the id selector has a higher specificity score */
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}

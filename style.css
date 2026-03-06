@@ -1,11 +1,50 @@
+:root {
+    --nav-bar-height: 7vh;
+}
+
 body {
-    width: 90%;
-    margin: 5%;
+    --padding: 5vw;
+
+    margin: 0%;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    padding-bottom: 100vh;
+    
+    scroll-padding-top: var(--nav-bar-height);
 }
 
 header {
     text-align: center;
 }
+
+.nav {
+
+    overflow: hidden;
+    background-color: #FDFBD4;
+    height: var(--nav-bar-height);
+    font-weight: bold;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-radius: 00px 00px 10px 10px;
+    position: fixed;
+    
+}
+
+.Personal, .Education, .Experience, .Projects, .Skills {
+    scroll-margin-top: var(--nav-bar-height);
+}
+
+
+.Spacer {
+    height: var(--nav-bar-height);
+}
+
+
+
+.Personal
 
 .Name {
     margin: 0;
@@ -28,7 +67,7 @@ hr {
 }
 
 h3 {
-        margin: 0;
+    margin: 0;
     padding: 0; 
 }
 
@@ -63,13 +102,6 @@ since the id selector has a higher specificity score */
 img {
     width: 300px;
     height: 300px;
-    margin-bottom: 20px;
     border-radius: 10%;
-}
-
-#image {
-    width: 250px;
-    height: 250px;
-    margin-bottom: 10px;
-    border-radius: 5%;
+    margin-top: var(--nav-bar-height);
 }

@@ -1,5 +1,11 @@
-Live Website: [https://csci-9548.github.io/HW-1/](https://csci-9548.github.io/HW-1/)
+Live Website: [https://csci-9548.github.io/HW/](https://csci-9548.github.io/HW/)
 
-Github Repository: [https://github.com/CSCI-9548/HW-1](https://github.com/CSCI-9548/HW-1)
+Github Repository: [https://github.com/CSCI-9548/HW](https://github.com/CSCI-9548/HW)
 
-Chrome DevTools Screenshot: ![alt text](./assets/image.png)
+Desktop Chrome DevTools Screenshot: 
+
+![alt text](./assets/screenshots/Desktop-View.png)
+
+Mobile Chrome DevTools Screenshot: 
+
+![alt text](./assets/screenshots/Mobile-View.png)

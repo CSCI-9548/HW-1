@@ -1,8 +1,3 @@
-The path that an HTTP request takes from your browser to the site is the following:
-1. Your browser preforms a DNS lookup on the url that you inputed in order to convert it into an IP address.
-2. After the IP address has been obtained, the browser sends the the HTTP request, which consists of the HTTP version, the HTTP method, the requested path, and any extra headers.
-3. When the server recieves this request, it process it, and if necessary sends back a response.
-
-Docker containeres are a much more powerful and versatile than Github pages. Github pages is primairly used to serve static webpages, whereas docker containers can run entire programs and applications within them. Github pages is most likely a stripped down version of a docker container, containing only the necessary stuff to host a webpage, such as a web server and a load balancer. 
-
-AI Attribution: No AI was used in this Homework
+1. The difference between flex-direction: row and flex-direction: column is that flex-direction: row arranges things along a single row, while flex-direction: column does so along as single column. It also affects how other alignment proprties work, like justify content. 
+2. It is important to use relative units (like %, vh, or rem) instead of fixed pixels (px) for responsive design beacuse field pixels do not scale with either your screen size nor your zoom level. This can cause your webpage to have all of its proportions messed up. This can be fixed by using relative units, which do scale with screen size and zoom level.
+3. AI Attribution: No AI was used in this Homework

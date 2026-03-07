@@ -19,11 +19,11 @@ header {
 }
 
 .nav-bar {
-    overflow: hidden;
     background-color: var(--cream);
     height: var(--nav-bar-height);
     font-weight: bold;
     display: flex;
+    flex-direction: row;
     width: 90%;
     color: black;
     justify-content: space-evenly;
@@ -37,13 +37,11 @@ header {
     font-size: 2.5vh;
 }
 
-.nav-bar-item:hover {
-    border-style: solid;
-    border-color: black;
-    padding: 0.1vh 1vh;
-    border-radius: 2vh;
-    border-width: 0.5vh;
-    transform: scale(1.3);
+@media (max-width: 800px) {
+    .nav-bar {
+        flex-direction: column;
+        overflow: scroll;
+    }
 }
 
 .Spacer {
@@ -123,6 +121,12 @@ img {
     text-align: center;
     gap: 2vw;
     margin: 4vh 0;
+}
+
+@media (max-width: 1300px) {
+    .Gallery-Items {
+        grid-template-columns: 1fr;
+    }
 }
 
 .Gallery-Item {

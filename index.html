@@ -7,17 +7,18 @@
     </head>
     <body>
         <header>
-            <div class="nav">
-                <p class="nav-item">Daniel Yentin</p>
-                <a class="nav-item" href="#Personal">Personal</a>
-                <a class="nav-item" href="#Education">Education</a>
-                <a class="nav-item" href="#Experience">Experience</a>
-                <a class="nav-item" href="#Projects">Projects</a>
-                <a class="nav-item" href="#Skills">Skills</a>
-            </div>
+            <section class="nav-bar">
+                <p>Daniel Yentin</p>
+                <a class="nav-bar-item" href="#Personal">Personal</a>
+                <a class="nav-bar-item" href="#Education">Education</a>
+                <a class="nav-bar-item" href="#Experience">Experience</a>
+                <a class="nav-bar-item" href="#Projects">Projects</a>
+                <a class="nav-bar-item" href="#Gallery">Gallery</a>
+                <a class="nav-bar-item" href="#Skills">Skills</a>
+            </section>
             <div class="Spacer"></div>
-            <div class="Personal" id="Personal">
-                <img src="./assets/me.jpg" alt="" id="image" />
+            <section class="Personal" id="Personal">
+                <img class="pfp" src="./assets/me.jpg" alt="" id="image" />
 
                 <h1 class="Name">Daniel Yentin</h1>
                 <p class="Contact">
@@ -34,7 +35,7 @@
                         >github.com/Dyredhead</a
                     >
                 </p>
-            </div>
+            </section>
         </header>
         <main>
             <section class="Education" id="Education">
@@ -182,7 +183,7 @@
                                 <td
                                     class="Projects-Item-Details-link Table-Right-Column"
                                 >
-                                    (<a href="github.com/MaxFilsR/Gainz"
+                                    (<a href="https://github.com/MaxFilsR/Gainz"
                                         >github.com/MaxFilsR/Gainz</a
                                     >)
                                 </td>
@@ -240,7 +241,8 @@
                                 <td
                                     class="Projects-Item-Details-link Table-Right-Column"
                                 >
-                                    (<a href="github.com/Dyredhead/Homelab"
+                                    (<a
+                                        href="https://github.com/Dyredhead/Homelab"
                                         >github.com/Dyredhead/Homelab</a
                                     >)
                                 </td>
@@ -297,7 +299,7 @@
                                 <td
                                     class="Projects-Item-Details-link Table-Right-Column"
                                 >
-                                    (<a href="github.com/Dyredhead/sapm"
+                                    (<a href="https://github.com/Dyredhead/sapm"
                                         >github.com/Dyredhead/sapm</a
                                     >)
                                 </td>
@@ -322,6 +324,53 @@
                                 Repository (AUR).
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="Gallery" id="Gallery">
+                <h2 class="Section-Header">Gallery</h2>
+                <hr />
+                <div class="Section-Items Gallery-Items">
+                    <div class="Gallery-Item">
+                        <img
+                            class="Gallery-Item-img"
+                            src="./assets/projects/Gainz.png"
+                            alt=""
+                        />
+                        <h2>
+                            Gainz: CSCI 49900 Capstone <br />Final Group Project
+                        </h2>
+                        <p>
+                            Gainz is more than a fitness tracker — it’s a
+                            fitness game. The goal is simple: make working out
+                            fun, rewarding, and addictive through smart
+                            gamification and consistent feedback loops.
+                            Resources
+                        </p>
+                    </div>
+                    <div class="Gallery-Item">
+                        <img
+                            class="Gallery-Item-img"
+                            src="./assets/projects/Homelab.png"
+                            alt=""
+                        />
+                        <h2>Homelab</h2>
+                        <p>
+                            My homelab, with network diagrams made using draw.io
+                        </p>
+                    </div>
+                    <div class="Gallery-Item">
+                        <img
+                            class="Gallery-Item-img"
+                            src="./assets/projects/SAPM.png"
+                            alt=""
+                        />
+                        <h2>SAPM</h2>
+                        <p>
+                            A System Agnostic Package Manager (SAPM) for simple,
+                            general use cases. Based heavily off of VanillaOS's
+                            apx.
+                        </p>
                     </div>
                 </div>
             </section>
